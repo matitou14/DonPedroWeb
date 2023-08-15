@@ -1,0 +1,49 @@
+/* Estilos generales del navbar */
+.navbar {
+    background-color: #df2a2a;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between; /* Esto asegura que el botón y la lista estén separados */
+    align-items: center;
+    z-index: 1000; 
+}
+
+/* Estilos para el botón de menú (ícono de hamburguesa) */
+.menu-button {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #FFF;
+    outline: none;
+}
+
+/* Estilos para la lista de navegación */
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    margin: 0 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #FFF;
+    padding: 5px 10px; /* Este padding ayuda a tener un área de clic más grande */
+}
+
+.navbar a:hover {
+    color: #007BFF;
+}
+
+/* Estilos responsivos */
+@media (min-width: 768px) {
+    .menu-button {
+        display: none;
+    }
+}
