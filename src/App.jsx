@@ -7,6 +7,7 @@ import Home from './components/home';
 // import Cortes from './components/cortes';
 // import Historia from './components/historia';
 // import Contacto from './components/contacto';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           {/* <Cortes />
           <Historia />
           <Contacto /> */}
+          <Footer />
       </div>
   );
 }

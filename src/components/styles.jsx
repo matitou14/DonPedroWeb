@@ -42,5 +42,52 @@ export const CardTitle = styled.h3`
     padding: 10px;
     text-align: center;
 `;
+export const FooterWrapper = styled.footer`
+    display: flex;
+    justify-content: space-between;
+    align-items:center
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height:0 auto;
+    z-index: 1000; 
+    
+  
+`;
 
+export const FooterSection = styled.div`
+    flex: 1
+    text-align: center
+    margin-bottom: 10px;
 
+    h3 {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    p, li, a {
+        margin-bottom:0 8px;
+    }
+`;
+
+export const SocialIcons = styled.div`
+    a {
+        margin-right: 10px;
+        color: #fff;
+        transition: color 0.3s;
+
+        &:hover {
+            color: #ddd;
+        }
+    }
+`;
+
+export const FooterBottom = styled.div`
+    margin-top: 140px;
+    margin-left:5px;
+    font-size: 14px;
+`;
